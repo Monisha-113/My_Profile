@@ -1,0 +1,253 @@
+/* Author: Monisha
+Date : 15.01.2023  */
+
+.container {
+    background-color: #ccc;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cambria;
+}
+.main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aquamarine; */
+}
+header {
+    border-top: 6px solid #f00;
+}
+.profile {
+    /* background-color: azure; */
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.profile-image {
+    width: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 0;
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 20px;
+    color: #f00;
+    margin-top: 0;
+}
+.personal {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.personal > h5 {
+    font-size: 13px;
+}
+.personal > div > p {
+    margin-top: 0;
+}
+.personal > div {
+    width: 180px;
+}
+h5 {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.margin {
+    margin-left: 20px;
+    width: 750px;
+    margin-right: 20px;
+    /* background-color: aqua; */
+}
+.skill {
+    width: 1000px;
+    display: flex;
+    margin-top: 20px;
+}
+.left {
+    width: 250px;
+    text-align: right;
+}
+span {
+    font-size: 15px;
+    font-weight: bold;
+}
+.act-details {
+    width: 750;
+    margin-left: 20px;
+    display: flex;
+}
+.act-details > div {
+    width: 180px;
+}
+.speaciality {
+    width: 750px;
+    display: flex;
+    margin-left: 20px;
+}
+.speaciality > div {
+    margin-right: 20px;
+    width: 360px;
+    margin-left: 15px;
+}
+.skills {
+    width: 360px;
+    margin-left: 20px;
+}
+.html {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 70%;
+    position: relative;
+}
+.css {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 50%;
+    position: relative;
+}
+.php {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 70%;
+    position: relative;
+}
+.js {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 45%;
+    position: relative;
+}
+.ptshp {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 55%;
+    position: relative;
+}
+.illus {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 40%;
+    position: relative;
+}
+.skt {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 80%;
+    position: relative;
+}
+.mac {
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f00;
+    width: 30%;
+    position: relative;
+}
+.percentage {
+    width: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    right: -30px;
+}
+.education {
+    width: 360px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.education > div > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.education > div {
+    margin-top: 20px;
+}
+.portfolio {
+    display: flex;
+    width: 750px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.pfimg {
+    width: 210px;
+    height: 200px;
+}
+.pfimg:hover {
+    width: 250px;
+    height: 250px;
+}
+.contact {
+    width: 750px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.gint {
+    width: 750px;
+    margin-left: 20px;
+}
+.gt {
+    width: 750px;
+    height: 30px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    border: 0;
+}
+.gt1 {
+    width: 750px;
+    height: 150px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    border: 0;
+}
+.submit {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(246, 80, 80);
+    color: #fff;
+    border: 0;
+}
+
+/* task-page */
+.tasks {
+    width: 1000px;
+    display: flex;
+    margin: 20px 50px 0 50px;
+    gap: 28px;
+    margin-top: 20px;
+
+    /* background-color: azure; */
+}
+.task-img {
+    width: 500px;
+    height: 300px;
+    border: 2px solid rosybrown;
+}
+.sub-para {
+    width: 500px;
+}
+.sub-img {
+    width: 315px;
+    margin-bottom: 30px;
+    height: 300px;
+}
+.task2 {
+    border-top: 5px solid;
+    width: 1000px;
+    display: flex;
+    margin: 20px 50px 0 50px;
+    gap: 30px;
+}
+.t-border {
+    border-bottom: 5px solid;
+    margin-bottom: 30px;
+}
